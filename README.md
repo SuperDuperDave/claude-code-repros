@@ -1,6 +1,6 @@
 # claude-code-repros
 
-Minimal reproductions of Claude Code behaviour, with the exact version they were measured on. Each directory is one finding: a script that runs inside Claude Code and prints expected versus actual.
+Minimal reproductions of Claude Code behavior, with the exact version they were measured on. Each directory is one finding: a script that runs inside Claude Code and prints expected versus actual.
 
 | Directory | Finding | Measured on |
 |---|---|---|
