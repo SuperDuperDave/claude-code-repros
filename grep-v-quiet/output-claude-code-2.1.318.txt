@@ -1,0 +1,7 @@
+type grep: grep is a function
+grep -vq a two.txt                 expected=0 got=1  MISMATCH
+grep -vq b two.txt                 expected=0 got=1  MISMATCH
+grep -vq x empty.txt               expected=1 got=0  MISMATCH
+grep -v a two.txt >/dev/null       expected=0 got=1  MISMATCH
+grep -v a two.txt | cat            expected=0 got=0  ok
+grep -q a two.txt                  expected=0 got=0  ok
